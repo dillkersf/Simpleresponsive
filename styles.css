@@ -1,0 +1,29 @@
+body{
+	margin: auto;
+		width: 60%;
+		background-color: black;
+		color: rgb(255, 255, 255);
+}
+
+h1{
+	text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+	body{
+		margin: auto;
+		width: 60%;
+		background-color: black;
+		color: rgb(255, 255, 255);
+	}
+	
+	main{
+	
+		display: grid;
+		grid-gap: 1rem;
+		
+		grid-template-columns: 1fr 1fr 1fr 
+	}
+	
+	
+}
